@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { clear } from 'console';
 import { Category } from 'src/app/models/category';
 import { CategoryService } from 'src/app/services/category.service';
 
