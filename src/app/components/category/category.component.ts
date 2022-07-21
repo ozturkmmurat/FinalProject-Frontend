@@ -23,7 +23,6 @@ export class CategoryComponent implements OnInit {
       this.categories = response.data;
     })
   }
-
   setCurrentCategory(category:Category){
     this.currentCategory = category;
   }
